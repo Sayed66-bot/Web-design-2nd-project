@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    height: 700px;
+    background-color: white;
+}
+
+.gallery-left {
+    max-width: 55%;
+}
+
+.gallery-text {
+    margin-bottom: 30px;
+}
+
+.gallery-heading-small {
+    font-size: 14px;
+    color: #ff6b6b; 
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.gallery-heading-large {
+    font-size: 36px;
+    line-height: 1.4;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto); 
+}
+
+.image-grid img {
+    object-fit: cover;
+}
+
+.img1 {
+    width: 110%; 
+    height: 150px; 
+}
+
+.img2 {
+    margin-left:30px;
+    width: 165%; 
+    height: 150px; 
+}
+
+.img3 {
+    width: 160%;
+    height: 180px; 
+}
+
+.img4 {
+    width: 123%;
+    height: 180px;
+    margin-left: 110px;
+}
+
+
+.featured-image {
+    
+    width: 35%;
+}
+
+.featured-image img {
+    width: 85%;
+    object-fit: cover;
+    
+}
+
+.featured-image{
+    width: 80%;
+    margin-left:0px;
+}
+
+.gallery-left {
+    max-width: 55%;
+}
+
+
+.gallery-container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    height: 700px;
+    background-color: white;
+}
+
+
+.gallery-text2-grid{
+    margin-top: 40px;
+    margin-right:620px;
+}
+
+.gallery-heading-small2{
+    font-size: 14px;
+    color: #ff6b6b; 
+    margin-bottom: 10px;
+    margin-right: 450px;
+}
+
+.gallery-heading-large2 {
+    font-size: 36px;
+    line-height: 1.4;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight:initial;
+}
+.featured-image2-grid {
+    margin-top: 30%;
+    width: 35%;
+}
+
+.featured-image2 img {
+    
+    width: 85%;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 190px 190px 0 0;    
+    border-left: 2px solid #FF4500; 
+    top: -20px;
+    left: -2s0px;
+}
+
+.featured-image2{
+    width: 40%;
+    height: 700px;
+    margin-right:35px;
+}
+
+
+.a1{
+    margin-top: 70px;
+    margin-left: 0px;
+    padding: 15px;
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    background-color:#FF4500;
+    border-radius: 4px;
+    color: white;
+    gap: 6px;
+    font-size:small ;
+    border: none;
+}
+.a2{
+    margin-top: 70px;
+    margin-left: 30px;
+    padding: 15px;
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    background-color:white;
+    border-radius: 4px;
+    color: #FF4500;
+    gap: 6px;
+    font-size:small ;
+    border-color: #FF4500;
+}
+.gallery-container3 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px; 
+    height: auto;
+    background-color:rgb(253, 240, 240);
+}
+
+.gallery-text3 {
+    max-width: 600px;
+}
+
+.gallery-heading-small3 {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    word-spacing: 2px;
+    font-stretch: wider;
+}
+
+.gallery-heading-large3 {
+    font-size: 33px;
+    line-height: 1.4;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: initial;
+}
+
+.Serial {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.Serial header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#FF4500 ;
+}
+.Serial2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    font-weight: lighter;
+}
+
+.Serial2 header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#FF4500 ;
+}
+.Serial li{
+    font: lighter;
+}
+.Serial2 li{
+    font: lighter;
+}
+.Serial3 {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+    font-weight: lighter;
+}
+.Serial3 header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#FF4500 ;
+}
+.Serial3 li{
+    display: inline;
+}
