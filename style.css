@@ -126,9 +126,8 @@ body {
 .gallery-heading-large2 {
     font-size: 36px;
     line-height: 1.4;
-    color: #000000;
+    color: #333;
     margin-bottom: 20px;
-    font-weight:initial;
 }
 .featured-image2-grid {
     margin-top: 30%;
@@ -142,8 +141,8 @@ body {
     object-fit: cover;
     border-radius: 190px 190px 0 0;    
     border-left: 2px solid #FF4500; 
-    top: -20px;
-    left: -2s0px;
+    padding:20px;
+
 }
 
 .featured-image2{
@@ -151,7 +150,6 @@ body {
     height: 700px;
     margin-right:35px;
 }
-
 
 .a1{
     margin-top: 70px;
@@ -262,4 +260,5 @@ body {
 }
 .Serial3 li{
     display: inline;
+    
 }
